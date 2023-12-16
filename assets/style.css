@@ -1,0 +1,86 @@
+* {
+    font-family: monospace;
+    color:black;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#eaf27c;
+    margin: 0;
+    padding: 0;
+    /*border: dotted black;*/
+}
+
+/*I have this solely to create space between the header and the top of the page*/
+.hidden{
+    top:100px;
+    position: static;
+    display:block;
+    border: dotted gold;
+    width:100%;
+    height: 56px;
+    margin: px;
+    text-align: center;
+    padding-top:px;
+    
+    border: solid blue;
+}
+
+.header {
+    position: fixed;
+    display: block;
+    top:0;
+    width: 100%;
+    height: 50px;
+    background-color:#ab9b96;
+    border:solid black;
+    
+    
+}
+
+nav{
+    margin:0;
+    text-align: center;
+   /* border: solid   black; */
+}
+
+nav ul li{
+list-style-type: none;
+display: inline;
+}
+
+.cool-main{
+    display:block;
+    margin:auto;
+    padding-left:;
+    height: 3000px;
+    width: 100%;
+    border: solid red;
+}
+
+.cool-main h2 {
+    margin-top:0;
+    display: block;
+    width: 50%;
+}
+
+.cool-main img{
+
+}
+
+
+.center {
+  border: 5px solid;
+  position: relative;
+  top:200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+title-wrapper {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
