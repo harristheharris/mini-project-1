@@ -17,14 +17,13 @@ body {
     top:100px;
     position: static;
     display:block;
-    border: dotted gold;
     width:100%;
     height: 56px;
     margin: px;
     text-align: center;
     padding-top:px;
     
-    border: solid blue;
+   /* border: solid blue; */
 }
 
 .header {
@@ -35,6 +34,7 @@ body {
     height: 50px;
     background-color:#ab9b96;
     border:solid black;
+    z-index: 2;
     
     
 }
@@ -48,39 +48,48 @@ nav{
 nav ul li{
 list-style-type: none;
 display: inline;
+text-align: right;
 }
 
 .cool-main{
     display:block;
     margin:auto;
-    padding-left:;
-    height: 3000px;
-    width: 100%;
-    border: solid red;
+    height: 1000px;
+    width:auto;
+    border: solid red; 
 }
 
-.cool-main h2 {
+.cool-main h1 {
     margin-top:0;
     display: block;
-    width: 50%;
+    width: 450px;
+    border: solid blue;
 }
 
 .cool-main img{
-
+top:px;
 }
 
 
 .center {
-  border: 5px solid;
+  display: block;
   position: relative;
-  top:200px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top:200px; 
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+  width: 0;
   padding: 10px;
+  border: solid gold;
 }
 
-title-wrapper {
-    width: 100%;
-    position: fixed;
-    z-index: 2;
+.figcap-loc{
+    display: block;
+    position: relative;
+    width:50%;
+    margin:0;
+    padding:0;
+    top:228px;
+    left:50%; 
+    
 }
